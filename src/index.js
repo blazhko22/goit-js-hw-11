@@ -2,7 +2,7 @@ import NewsApiService from './js/news-service';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
-import './style/style.css';
+import './sass/main.scss';
 
 const refs = {
   gallery: document.querySelector('.gallery'),
