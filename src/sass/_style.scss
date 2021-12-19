@@ -1,0 +1,101 @@
+body {
+  margin: auto;
+  background-color: #cef9eb;
+}
+
+.search-form {
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  border-radius: 2px;
+  background-color: #64bd67;
+}
+
+.search-form input {
+  padding: 5px;
+  width: 300px;
+  border: none;
+  outline: none;
+}
+
+.search-form input::placeholder {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.search-form button {
+  width: 57px;
+  cursor: pointer;
+  border: none;
+  background-color: #e886ef;
+  color: #831a1a;
+}
+
+.fas {
+  color: #4a4e4d;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+.photo-card {
+  margin: 12px;
+  display: block;
+  border: 1px solid #eeeeee;
+}
+
+.photo-card:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.photo-card img {
+  width: 350px;
+  height: 220px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-evenly;
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.load-more {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  cursor: pointer;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+
+  background-color: #2ab7ca;
+  color: #eeeeee;
+  border: none;
+  border-radius: 5px;
+}
+
+.load-more:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.is-hidden {
+  display: none;
+}
